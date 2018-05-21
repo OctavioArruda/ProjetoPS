@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+h1 {
+    font-family: 'Marck Script', cursive;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+
+p {
+    text-indent: 50px;
+    font-family: 'Kavivanar', cursive;
+}
+
+.img_hover_bg img {
+    transition: margin 1s ease;
+}
+
+/**
+ * Classe para identificar a listagem dos personagens
+ * Não precisava estar aqui se eu não for colocar nenhum estilo nele
+ */
+.char-list {}
+    /**
+    * Classe que engloba cada item
+    */
+    .char-list__item {
+        /* O position relative nesse caso serve para delimitar a área do position do filho para ele mesmo */
+        /* Experimenta comentar o position pra ver como que fica */
+        position: relative;
+    }
+        /* O seletor > diz que: 'Quero os .char-attack que tiverem o pai .char-list__item' */
+        .char-list__item:hover > .char-attack {
+            opacity: 1; /* Quanto tiver o hover no pai, coloca a opacidade em 100% */
+        }
+
+        /**
+        * Classe que mostra o ataque do personagem
+        */
+        .char-list__item > .char-attack {
+            position: absolute; /* Para sair do fluxo principal da página */
+            right: 0; /* Coloca ele no pixel 0 à direita */
+            top: 50%; /* 50% do tamanho do pai */
+            transform: translateY(-50%); /* Faz um translate vertical de 50% do tamanho da div */
+            opacity: 0; /* Começo com o opacity zerado */
+            transition: opacity 300ms ease; /* Adiciona o transition no opacity */
+        }
+            /* Seta um tamanho máximo da imagem de uma maneira que ela consiga colocar a sua própria proporção */
+            .char-list__item > .char-attack > img {
+                height: auto;
+                margin: 0;
+                max-width: 320px;
+                width: 100%;
+            }
