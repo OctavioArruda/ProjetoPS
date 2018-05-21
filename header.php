@@ -22,10 +22,9 @@
             </button> <!-- responsividade -->
             <!-- testando -->
             <div id="container_header" class="container">
-                <div class="jumbotron">
+                <div>
                     <h1>Phantasy Star</h1>
                     <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
-
                 </div>
                 <p>We battle for freedom.</p>
                 <p>It's a battle against the dark.</p>
