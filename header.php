@@ -15,26 +15,21 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg nav-light bg-light">
-            <!--<a href="index.php" class="nav-brand">Phantasy Star</a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button> <!-- responsividade -->
-            <!-- testando -->
-            <div id="container_header" class="container">
-                <div>
-                    <h1>Phantasy Star</h1>
-                    <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
-                </div>
-                <p>We battle for freedom.</p>
-                <p>It's a battle against the dark.</p>
+        <div id="container_header" class="container">
+            <div class="row"><h1>Phantasy Star Mania</h1>
+                <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
             </div>
-            <!-- testando -->
+            <p id="headertext">We battle for freedom.</p>
+            <p id="headertext">It's a battle against the dark.</p>
+        </div>
+
+            <!-- bar buttons -->
+        <nav class="navbar navbar-expand-lg nav-light bg-light">
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item">
-                        <a href="characters.html" class="nav-link">Personagens</a>
+                        <a href="characters.php" class="nav-link">Personagens</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">História</a>
@@ -43,7 +38,7 @@
                         <a href="" class="nav-link">Curiosidades</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Vilões</a>
+                        <a href="villains.php" class="nav-link">Vilões</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Contato</a>
@@ -62,7 +57,5 @@
                     </li>
                 </ul>
             </div>
-
-
         </nav>
     </header>

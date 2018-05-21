@@ -15,11 +15,7 @@ require_once('header.php');
                     <h1 id="maintitle" class="mt-4 mb-4">Bem-vindo</h1>
 
                     <p id="maintext"class="text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet lacus vel mauris
-                    fermentum, sed sagittis elit fermentum. Pellentesque habitant morbi tristique senectus et netus
-                    et malesuada fames ac turpis egestas. Vestibulum bibendum nunc vel tincidunt viverra. In in nunc
-                    tortor. Maecenas molestie metus id molestie facilisis. Ut nunc libero, malesuada ut orci eget,
-                    eleifend laoreet enim. Nullam at dolor in nulla gravida congue.</br></br></p>
+                     Este é um site sobre Phantasy Star no geral. Apesar do conteúdo ser focado no quarto game da série, teremos artigos sobre todos os jogos da série. O site está em construção, por isso, pedimos que sejam pacientes. Qualquer crítica podem mandar para A SUA MÃE . ;)</br></br></p>
 
                     <p id="maintext" class="text-justify">Vivamus nec lobortis ligula, sit amet interdum sapien. Praesent ac libero
                     nec sapien ornare hendrerit. Proin nec convallis massa, vel vulputate orci. Donec et diam ut
