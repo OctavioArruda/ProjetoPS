@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Kavivanar');
 
-#maintext { font-family: 'Marck Script', cursive;
+#maintext { font-family: 'Kavivanar', cursive;
     text-align: center;
     color: floralwhite;
     font-size: 18px;
@@ -9,7 +9,7 @@
 
 #maintitle {
     text-indent:50px;
-    font-family: 'Kavivanar', cursive;
+    font-family: 'Marck Script', cursive;
     color: antiquewhite;
 }
 
