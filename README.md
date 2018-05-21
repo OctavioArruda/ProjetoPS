@@ -1,2 +1,2 @@
 # ProjetoPS
-Phantasy star Mania fan made
+Phantasy Star Mania fan made site
