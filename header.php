@@ -16,11 +16,16 @@
 <body>
     <header>
         <div id="container_header" class="container">
-            <div class="row"><h1>Phantasy Star Mania</h1>
-                <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
+            <div class="row  align-items-center">
+                <div class="col-6">
+                    <h1>Phantasy Star Mania</h1>
+                    <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
+                </div>
+                <div class="col-6">
+                    <p id="headertext">We battle for<br> freedom.</p>
+                    <p id="headertext">It's a battle <br>against the dark.</p>
+                </div>
             </div>
-            <p id="headertext">We battle for freedom.</p>
-            <p id="headertext">It's a battle against the dark.</p>
         </div>
 
             <!-- bar buttons -->

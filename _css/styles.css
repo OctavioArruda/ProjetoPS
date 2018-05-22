@@ -13,6 +13,12 @@
     color: antiquewhite;
 }
 
+#headertext {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
 
 img {
     border: 1px solid black;
@@ -35,6 +41,8 @@ img {
 }
 
 #container_header {
-    margin-bottom: -30px;
+    margin-bottom: -60px;
     padding: 5px;
+    margin-top: 5px;
 }
+
