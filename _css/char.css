@@ -3,6 +3,7 @@
 
 h1 {
     font-family: 'Marck Script', cursive;
+    font-color: white;
 }
 
 img {
@@ -16,12 +17,20 @@ img {
 p {
     text-indent: 50px;
     font-family: 'Kavivanar', cursive;
+    font-color: white;
 }
 
 .img_hover_bg img {
     transition: margin 1s ease;
 }
 
+.char-list {
+    background-image: url("/_img/_mainbg.png");
+}
+
+.char-list__item {
+    color: white;
+}
 /**
  * Classe para identificar a listagem dos personagens
  * Não precisava estar aqui se eu não for colocar nenhum estilo nele

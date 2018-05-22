@@ -12,26 +12,28 @@
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="_css/char.css">
     <link rel="stylesheet" type="text/css" href="_css/styles.css">
+    <link rel="stylesheet" href="_css/open-iconic.min.css">
 </head>
 <body>
     <header>
-        <div id="container_header" class="container-fluid bg-dark">
-            <div class="row  align-items-center">
-                <div class="col-3 align-self-start">
-                    <h1 class="headertext">Phantasy Star Mania</h1>
-                </div>
-                <div class="col-3">
-                    <p class="headertext">We battle <br> for freedom!</p>
-                </div>
-                <div class="col-3">
-                    <p class="headertext">It's a battle <br>against the dark.</p>
-                </div>
-                <div class="col-3">
-                    <!-- contato stuff -->
+        <section class="header_general">
+            <div id="container_header" class="container-fluid bg-dark">
+                <div class="row  align-items-center">
+                    <div class="col-3 align-self-start">
+                        <h1 class="headertext">Phantasy Star Mania</h1>
+                    </div>
+                    <div class="col-3">
+                        <p class="headertext">We battle <br> for freedom!</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="headertext">It's a battle <br>against the dark.</p>
+                    </div>
+                    <div class="col-3">
+                        <!-- área para contato e informações -->
+                    </div>
                 </div>
             </div>
-        </div>
-
+        </section>
             <!-- bar buttons -->
         <nav class="navbar navbar-expand-lg nav-light bg-dark">
             <div id="navbar" class="collapse navbar-collapse">
