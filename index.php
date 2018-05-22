@@ -9,7 +9,7 @@ require_once('header.php');
 
 <main>
     <section id="start_container">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <h1 id="maintitle" class="mt-4 mb-4">Bem-vindo</h1>

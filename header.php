@@ -15,38 +15,52 @@
 </head>
 <body>
     <header>
-        <div id="container_header" class="container">
+        <div id="container_header" class="container-fluid bg-dark">
             <div class="row  align-items-center">
-                <div class="col-6">
-                    <h1>Phantasy Star Mania</h1>
-                    <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
+                <div class="col-3 align-self-start">
+                    <h1 class="headertext">Phantasy Star Mania</h1>
                 </div>
-                <div class="col-6">
-                    <p class="headertext">We battle for<br> freedom.</p>
+                <div class="col-3">
+                    <p class="headertext">We battle <br> for freedom!</p>
+                </div>
+                <div class="col-3">
                     <p class="headertext">It's a battle <br>against the dark.</p>
+                </div>
+                <div class="col-3">
+                    <!-- contato stuff -->
                 </div>
             </div>
         </div>
 
             <!-- bar buttons -->
-        <nav class="navbar navbar-expand-lg nav-light bg-light">
+        <nav class="navbar navbar-expand-lg nav-light bg-dark">
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item">
-                        <a href="characters.php" class="nav-link">Personagens</a>
+                        <a href="characters.php" class="nav-link">
+                            <button type="submit" class="btn btn-primary">Personagens</button>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">História</a>
+                        <a href="characters.php" class="nav-link">
+                        <button type="submit" class="btn btn-primary">História</button>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Curiosidades</a>
+                        <a href="characters.php" class="nav-link">
+                        <button type="submit" class="btn btn-primary">Curiosidades</button>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="villains.php" class="nav-link">Vilões</a>
+                        <a href="villains.php" class="nav-link">
+                            <button type="submit" class="btn btn-primary">Vilões</button>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Contato</a>
+                        <a href="characters.php" class="nav-link">
+                            <button type="submit" class="btn btn-primary">Contato</button>
+                        </a>
                     </li>
 
                     <li class="nav-item dropdown">
