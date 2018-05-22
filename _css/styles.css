@@ -13,11 +13,11 @@
     color: antiquewhite;
 }
 
-#headertext {
-    padding: 10px;
-    margin-bottom: 50px;
+.headertext {
     margin-top: 5px;
 }
+
+.headertext:last-child { margin-bottom: 0px;}
 
 
 img {
@@ -41,8 +41,6 @@ img {
 }
 
 #container_header {
-    margin-bottom: -60px;
-    padding: 5px;
     margin-top: 5px;
 }
 

@@ -22,8 +22,8 @@
                     <p>O site mais completo e interativo de Phantasy Star que você já viu!</p>
                 </div>
                 <div class="col-6">
-                    <p id="headertext">We battle for<br> freedom.</p>
-                    <p id="headertext">It's a battle <br>against the dark.</p>
+                    <p class="headertext">We battle for<br> freedom.</p>
+                    <p class="headertext">It's a battle <br>against the dark.</p>
                 </div>
             </div>
         </div>
