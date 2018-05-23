@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Kavivanar');
 
-#maintext { font-family: 'Kavivanar', cursive;
+.maintext { font-family: 'Kavivanar', cursive;
     text-align: center;
     color: floralwhite;
     font-size: 18px;
@@ -33,7 +33,8 @@ img {
 #start_container {
     background-image: url("/_img/_mainbg.png");
     width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/ /* Troca por min-height pra não bugar quando a altura da página for menor que a altura do conteúdo */
+    min-height: 100vh;
 }
 
 #mainimg {
@@ -42,7 +43,7 @@ img {
 }
 
 #container_header {
-    margin-left: 150px;
+    /*margin-left: 150px;*/ /* Isso aqui tava substituindo a ação do container de centralizar o conteúdo */
 }
 
 @media (min-width: 1200px) {
