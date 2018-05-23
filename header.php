@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="_css/char.css">
     <link rel="stylesheet" type="text/css" href="_css/styles.css">
     <link rel="stylesheet" href="_css/open-iconic.min.css">
+    <link rel="stylesheet" href="_css/fontawesome-all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 </head>
 <body>
     <header class="bg-dark">
@@ -30,7 +33,8 @@
                             <p class="headertext">It's a battle <br>against the dark.</p>
                         </div>
                         <div class="col-3">
-                            <!-- área para contato e informações -->
+                            <i class="fas fa-mobile-alt" style="color: white; font-size:20px"> 9999-9999 </i>
+                            <i class="fab fa-twitter-square" style="color: white; font-size:20px">  @_generictt </i>
                         </div>
                     </div>
                 </div>

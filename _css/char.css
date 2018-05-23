@@ -3,7 +3,7 @@
 
 h1 {
     font-family: 'Marck Script', cursive;
-    font-color: white;
+    color: white;
 }
 
 img {
@@ -17,14 +17,14 @@ img {
 p {
     text-indent: 50px;
     font-family: 'Kavivanar', cursive;
-    font-color: white;
+    color: white;
 }
 
 .img_hover_bg img {
     transition: margin 1s ease;
 }
 
-.char-list {
+.char_bg {
     background-image: url("/_img/_mainbg.png");
 }
 

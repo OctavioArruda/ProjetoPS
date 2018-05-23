@@ -1,6 +1,6 @@
 <?php require_once('header.php') ?>
 
-<main>
+<main class="char_bg">
     <div class="container char-list">
         <div class="row char-list__item">
             <div class="col-12 col-md-6">
