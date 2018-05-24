@@ -19,17 +19,38 @@
 
 </head>
 <body>
-<header class="bg-dark">
+<header style="background-color: black">
     <div class="container">
         <section class="header_general">
             <div id="container_header">
-                <div class="row  align-items-center">
-
-                    <div class="col-3">
-                        <h1 class="headertext">Phantasy Star Mania</h1>
+                <div class="d-flex flex-row">
+                    <div class="p-2 mr-auto">
+                        <p class="headertext">We battle <br> for freedom!</p>
                     </div>
+                    <div class="p-2 align-self-end">
+                        <a href="https://www.instagram.com/oaarruda/?hl=pt-br" class="fab fa-instagram" style="color: white; font-size:20px"></a>
 
-                    <div class="col-3">
+                        <a href="https://twitter.com/_Schifer1" class="fab fa-twitter-square" style="color: white; font-size:20px"></a>
+                        <a href="#" class="fas fa-envelope-square" style="color: white; font-size:20px"></a>
+                    </div>
+                </div>
+                <div class="d-flex flex-row bg-dark">  <!--
+                vertical alignment:
+                align-items-start
+                align-items-center
+                align-items-end
+                -->
+
+                    <div class="p-2">
+                        <!--
+                        horizontal alignment:
+                        align-self-start
+                        align-self-center
+                        align-self-end
+                        -->
+                        <h1 style="color: white; font-size:35px;">Phantasy Star Mania</h1>
+                    </div>
+                    <div class="p-2">
                         <nav class="navbar navbar-expand-lg nav-light">
                             <div id="navbar" class="collapse navbar-collapse">
                                 <ul class="navbar-nav mr-auto">
@@ -61,20 +82,9 @@
                                 </ul>
                             </div>
                         </nav>
-                    </div>
-
-                    <div class="col-3">
                         <!--
                         <p class="headertext">It's a battle <br>against the dark.</p>
                         -->
-                        <p class="headertext">We battle <br> for freedom!</p>
-                    </div>
-                    
-                    <div class="col-3">
-                        <a href="https://www.instagram.com/oaarruda/?hl=pt-br" class="fab fa-instagram" style="color: white; font-size:20px"></a>
-
-                        <a href="https://twitter.com/_Schifer1" class="fab fa-twitter-square" style="color: white; font-size:20px"></a>
-                        <a href="#" class="fas fa-envelope-square" style="color: white; font-size:20px"></a>
                     </div>
                 </div>
             </div>
