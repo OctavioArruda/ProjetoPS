@@ -1,6 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Kavivanar');
 
+html {
+    font-size: 10px; /* Pra referenciar o rem */
+}
+
+/* O 'rem' se referencia ao font-size do html */
+/* 1.2rem = 12px nesse caso */
+/* O 'em' se referencia ao pai ou ao próprio elemento */
+
+/* Up Header */
+#up-header {
+    background-color: #1c1f22;
+    padding: 0.5rem 0;
+}
+    #up-header .headertext {
+        color: #FFF;
+        font-size: 1.2rem;
+        margin: 0;
+        text-indent: 0; /* Tu colocou que todos os Ps do documento vão ter text-indent, vê se é isso que tu quer */
+    }
+
+    #up-header .social-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+        #up-header .social-list > li {
+            float: left;
+            line-height: 1em;
+            margin-right: 1rem;
+        }
+            #up-header .social-list > li:last-child {
+                margin-right: 0;
+            }
+
+            #up-header .social-list > li > a {
+                color: #FFF;
+                display: block;
+                font-size: 2rem;
+            }
+                #up-header .social-list > li > a:hover,
+                #up-header .social-list > li > a:active {
+                    text-decoration: none;
+                }
+
+/* Header */
+#header {
+    padding: 1rem 0;
+}
+    #header .logo {
+        line-height: 1;
+        margin: 0;
+    }
+
+    #header .navbar {
+        padding: 0;
+    }
+        #header .navbar li {
+            margin-right: 1rem;
+        }
+            #header .navbar li:last-child {
+                margin-right: 0;
+            }
+
+            #header .navbar li > a {
+                font-size: 1.2rem;
+            }
+
+/* Conteúdo */
 .maintext { font-family: 'Kavivanar', cursive;
     text-align: center;
     color: floralwhite;
@@ -12,14 +80,6 @@
     font-family: 'Marck Script', cursive;
     color: antiquewhite;
 }
-
-.headertext {
-    margin-top: 5px;
-    color: #1dfa7c;
-}
-
-.headertext:last-child { margin-bottom: 0px;}
-
 
 img {
     border: 1px solid black;
