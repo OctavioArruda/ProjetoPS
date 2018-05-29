@@ -65,7 +65,7 @@ html {
             }
 
             #header .navbar li > a {
-                font-size: 1.2rem;
+                font-size: 1.6rem;
             }
 
 /* Conteúdo */
@@ -76,9 +76,11 @@ html {
 }
 
 #maintitle {
+    padding: 1.5em;
     text-indent:50px;
     font-family: 'Marck Script', cursive;
     color: antiquewhite;
+    font-size: 30px;
 }
 
 img {
@@ -110,4 +112,13 @@ img {
     .container-fluid{
         max-width: 1200px;
     }
+}
+
+#about_game {
+    background-color: #343a40;;
+}
+
+#about_game p {
+    font-size: 1.5em;
+    padding-top: 2.5em
 }

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="_css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="_css/char.css">
     <link rel="stylesheet" type="text/css" href="_css/styles.css">
+    <link rel="stylesheet" type="text/css" href="_css/villains.css">
+    <link rel="stylesheet" type="text/css" href="_css/normalize.css">
     <!-- O CSS trabalha em cascata, o que vem em baixo tende a substituir o que está em cima -->
     <!-- Cuidado na hora que tu for referenciar os links do CSS porque tu pode ter um resultado inesperado -->
     <!-- Coloca as bibliotecas antes do teu código customizado -->
@@ -20,31 +22,33 @@
     <div id="up-header">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
-                <div>
+                <div class="p-2">
                     <!--
                         <p class="headertext">It's a battle <br>against the dark.</p>
                     -->
                     <p class="headertext">We battle for freedom!</p>
                 </div>
 
-                <ul class="social-list">
-                    <li>
-                        <a href="https://www.instagram.com/oaarruda/?hl=pt-br" class="fab fa-instagram"></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/_Schifer1" class="fab fa-twitter-square"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="fas fa-envelope-square"></a>
-                    </li>
-                </ul>
+                <div class="p-2">
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://www.instagram.com/oaarruda/?hl=pt-br" class="fab fa-instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/_Schifer1" class="fab fa-twitter-square"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fas fa-envelope-square"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
     <header id="header" class="bg-dark">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-lg-wrap align-items-center justify-content-between">
                 <h1 class="logo">Phantasy Star Mania</h1>
 
                 <nav class="navbar navbar-expand-lg nav-light">
@@ -83,7 +87,9 @@
                 <a href="characters.php" class="dropdown-item">Personagens</a>
                 <a href="villains.php" class="dropdown-item">Vilões</a>
                 <a href="#" class="dropdown-item">História</a>
-                <a href="#" class="dropdown-item">Curiosidades</a> -->
+                <a href="#" class="dropdown-item">Curiosidades</a>
+                </li>
+                -->
             </div>
         </div>
     </header>
