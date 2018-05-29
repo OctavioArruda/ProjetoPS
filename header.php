@@ -12,6 +12,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="_css/char.css">
     <link rel="stylesheet" type="text/css" href="_css/styles.css">
+    <link rel="stylesheet" href="_css/normalize.css">
     <link rel="stylesheet" href="_css/open-iconic.min.css">
     <link rel="stylesheet" href="_css/fontawesome-all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
