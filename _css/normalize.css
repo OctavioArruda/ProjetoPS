@@ -1,0 +1,38 @@
+/*
+Normalização é aplicar regras que façam com que todos os browsers
+ganhem o mesmo efeito. Browsers por padrão aplicam regras próprias
+de css, e o programador é encarregado de fazer com que essas regras
+não causem disparidade na aparência e funcionalidade do software.
+*/
+* {
+    box-sizing: border-box;
+}
+
+*,
+*:before
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+[type="button"],
+[type="submit"],
+[type="reset"] {
+    -webkit-appearance: button;
+}
+
+text {
+    overflow: auto;
+}
+
+[hidden] {
+    display: none;
+}

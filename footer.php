@@ -7,5 +7,18 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                 crossorigin="anonymous"></script>
+
+        <section id="footer">
+            <div class="d-flex flex-row">
+                <div class="p-22"><p>&copy; Copyright Dino Dev TEAM</p></div>
+                <div class="p-2 ml-auto p-2">
+                    <nav class="social">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
