@@ -122,3 +122,29 @@ img {
     font-size: 1.5em;
     padding-top: 2.5em
 }
+
+#footer {
+    background: #1c1f22;
+    color: #ffffff;
+    padding: 0.5rem 0;
+}
+
+#footer p{
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+#footer .social {
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+#footer .social a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.9em;
+}
+
+#footer .social a:hover {
+    text-decoration: underline;
+}
