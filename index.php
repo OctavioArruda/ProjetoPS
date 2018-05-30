@@ -8,6 +8,16 @@ require_once('header.php');
 ?>
 
 <main>
+    <section id="calltoaction">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="col-sm">
+                    <h1> Call to Action </h1>
+                    <a href="characters.php" class="btn btn-dark">Click Here</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="start_container">
         <div class="container">
             <div class="row">
@@ -56,7 +66,23 @@ require_once('header.php');
                     <p>Morbi eu nisl mauris. Duis vitae risus ac libero egestas feugiat. Aenean iaculis dui ut eros consectetur pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec turpis dolor. Praesent euismod diam eu tempus ultrices. Proin eu vestibulum sem. Nam nec lacus id nulla volutpat iaculis. Nullam eu nisl ante. Quisque</p>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <p>A série conta com diversos vilões, herois e lendas. A ovelha negra da série, Phantasy star 3, se dá pelo fato de que não há "ligação" com os outros games da série. Porém, a primeira vista, pode-se pensar isso, erroneamente. <br></p>
+                    <p>O jogo na realidade tem ligação direta com a explosão de Palma, que ocorre no Phantasy Star 2, e possui um total de quatro finais diferentes, e três gerações para ser explorado. Na imagem à direita, a lenda de Orakio e Laya. onsectetur adipiscing elit. Vestibulum nec turpis dolor. Praesent euismod diam eu tempus ultrices. Proin eu vestibulum sem. Nam nec lacus id nulla volutpat iaculis. Nullam eu nisl ante. Quisque
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <img src="_img/ps3-orakio-laya.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <!-- contact section area with flexbox -->
+        
     </section>
 </main>
 
